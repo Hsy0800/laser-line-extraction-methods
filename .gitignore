@@ -1,0 +1,69 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 模型文件和数据集
+*.h5
+*.pb
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.tfrecord
+datasets/
+models/
+
+# 图像文件（可选，取决于是否需要版本控制图像）
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.bmp
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+.DS_Store
+Thumbs.db
